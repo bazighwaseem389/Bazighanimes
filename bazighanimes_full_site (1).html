@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BazighAnimes</title>
+  <style>
+    body {
+      background-color: #1e1e1e;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #e50914;
+      padding: 1rem;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem;
+      gap: 1.5rem;
+    }
+    .card {
+      background-color: #2a2a2a;
+      border-radius: 15px;
+      width: 320px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 1rem;
+    }
+    h3 {
+      margin-top: 0;
+      color: #f34242;
+    }
+    .video iframe {
+      margin: 1rem 0;
+      border-radius: 8px;
+    }
+    .post {
+      background-color: #3a3a3a;
+      padding: 0.5rem;
+      border-radius: 10px;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background-color: #e50914;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>BazighAnimes</header>
+  <div class="container">
+    
+    <!-- Naruto Shippuden Card -->
+    <div class="card">
+      <img src="naruto-poster.jpg" alt="Naruto Shippuden">
+      <div class="card-content">
+        <h3>Naruto Shippuden</h3>
+        <p>The journey of Naruto Uzumaki continues as he faces stronger foes and uncovers deep secrets.</p>
+        <div class="video">
+          <iframe width="100%" height="200" src="https://www.youtube.com/embed/JJzLqN0e5w4" 
+            title="Naruto Shippuden Episode" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="post">
+          <p><strong>@Naruto_Official:</strong> Believe it! Naruto's never-give-up spirit is back!</p>
+        </div>
+        <a href="https://www.youtube.com/watch?v=JJzLqN0e5w4" class="btn" target="_blank">Watch Episode</a>
+      </div>
+    </div>
+
+    <!-- Attack on Titan Card -->
+    <div class="card">
+      <img src="https://i.imgur.com/oZzZ1OY.jpeg" alt="Attack on Titan">
+      <div class="card-content">
+        <h3>Attack on Titan</h3>
+        <p>Humanity fights for survival behind walls from terrifying man-eating titans.</p>
+        <div class="video">
+          <iframe width="100%" height="200" src="https://www.youtube.com/embed/MGRm4IzK1SQ" 
+            title="Attack on Titan Trailer" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="post">
+          <p><strong>@AOT_Updates:</strong> Titans are rising. Watch the battle begin!</p>
+        </div>
+        <a href="https://www.youtube.com/watch?v=MGRm4IzK1SQ" class="btn" target="_blank">Watch Trailer</a>
+      </div>
+    </div>
+
+    <!-- Demon Slayer Card -->
+    <div class="card">
+      <img src="https://i.imgur.com/nlN3K4h.jpeg" alt="Demon Slayer">
+      <div class="card-content">
+        <h3>Demon Slayer</h3>
+        <p>Tanjiro becomes a demon slayer to save his sister and avenge his family.</p>
+        <div class="video">
+          <iframe width="100%" height="200" src="https://www.youtube.com/embed/VQGCKyvzIM4" 
+            title="Demon Slayer Trailer" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="post">
+          <p><strong>@DemonSlayer_JP:</strong> The blade shines through the darkness!</p>
+        </div>
+        <a href="https://www.youtube.com/watch?v=VQGCKyvzIM4" class="btn" target="_blank">Watch Trailer</a>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
